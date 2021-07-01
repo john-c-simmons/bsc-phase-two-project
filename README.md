@@ -56,6 +56,12 @@ This is a scatter plot that shows price and Sqft living. As you can see the bigg
 Here we have a map of King County. The darker blue dots show the cheaper houses and the dark red dots show the most expensive houses. The varying shades of green show the median household income in that designated area.
  <img width="1034" alt="Screen Shot 2021-07-01 at 3 48 05 PM" src="https://user-images.githubusercontent.com/84737779/124196393-edd1e100-da91-11eb-9588-120b7a326d30.png">
  
+ Here we can see our model does not perform well at the extremes but luckily for us the majority of our data is not at the extremes.
+ 
+ <img width="464" alt="Screen Shot 2021-07-01 at 5 33 58 PM" src="https://user-images.githubusercontent.com/84737779/124197141-8321a500-da93-11eb-9b48-cee3652d0dac.png">
+ 
+<img width="556" alt="Screen Shot 2021-07-01 at 5 34 08 PM" src="https://user-images.githubusercontent.com/84737779/124197146-874dc280-da93-11eb-86c0-765a14329cfb.png">
+ 
 
 
 
@@ -68,7 +74,8 @@ If we were able to take this project furthur, we would look into making somethin
 
 ## For More Information 
 
-Please review our full analysis in our Jupyter Notebook or our Presentation. For any additional questions, pkease contact Mallory Wilson at mallorye1103@gmail.com, Charlie Fountain at charliefountain122@gmail.com, and John Carter Simmons at johncsimmons99@gmail.com
+Please review our full analysis in our Jupyter Notebook or our [presentation](https://github.com/john-c-simmons/bsc-phase-two-project/blob/developing/King_County.pdf
+). For any additional questions, pkease contact Mallory Wilson at mallorye1103@gmail.com, Charlie Fountain at charliefountain122@gmail.com, and John Carter Simmons at johncsimmons99@gmail.com
 
 ## Repository Structure
 
