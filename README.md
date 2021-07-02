@@ -4,7 +4,7 @@
 
 <h3>Overview<h3>      
 
-In order for us to accurately inform King County home buyers on how diffrent variables affect the price of their home, we had to go through the process of making multiple models. These models will show how price is affected by different home features and how much the price is affected by these features. In order for us to make a good prediction model, we had to go through the data and clean it in multiple ways. Then we had to figure out which features had the largest effect on price. After discovering this, we found more data and applied it to our model with made it even better. After finding more data, cleaning the data, making multiple models and graphs, we have a better idea on how much different features can affect the price of a home. These results will be shown in multiple graphs.
+In order for us to accurately inform King County home buyers on how diffrent variables affect the price of their home, we had to go through the process of making multiple models. These models will show how price is affected by different home features and how much the price is affected by these features. In order for us to make a good prediction model, we had to go through the data and clean it in multiple ways. Then we had to figure out which features had the largest effect on price. After discovering this, we found more data and applied it to our model which made it even better. After finding more data, cleaning the data, making multiple models and graphs, we have a better idea on how much different features can affect the price of a home. These results will be shown in multiple graphs.
 
 <h3>Business Problem<h3>  
 
