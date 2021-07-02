@@ -74,7 +74,7 @@ If we were able to take this project furthur, we would look into making somethin
 
 ## For More Information 
 
-Please review our full analysis in our Jupyter Notebook or our [presentation](https://github.com/john-c-simmons/bsc-phase-two-project/blob/developing/King_County.pdf
+Please review our full analysis in our [Jupyter Notebook](https://github.com/john-c-simmons/bsc-phase-two-project/blob/721a3264c4d27e90362eff947866e57484a6685e/notebooks/report.ipynb) or our [presentation](https://github.com/john-c-simmons/bsc-phase-two-project/blob/developing/King_County.pdf
 ). For any additional questions, pkease contact Mallory Wilson at mallorye1103@gmail.com, Charlie Fountain at charliefountain122@gmail.com, and John Carter Simmons at johncsimmons99@gmail.com
 
 ## Repository Structure
