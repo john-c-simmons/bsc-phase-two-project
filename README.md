@@ -4,7 +4,7 @@
 
 <h3>Overview<h3>      
 
-In order for us to accurately inform King County home buyers how their potential home renovations would affect the price of their home, we had to go through the process of making multiple models. These models will show how price is affected by different home features and how much the price is affected by these features. In order for us to make a good prediction model, we had to go through the data and clean it in multiple ways. Then we had to figure out which features had the largest effect on price. After discovering this, we found more data and applied it to our model with made it even better. After finding more data, cleaning the data, making multiple models and graphs, we have a better idea on how much different features can affect the price of a home. These results will be shown in multiple graphs.
+In order for us to accurately inform King County home buyers on how diffrent variables affect the price of their home, we had to go through the process of making multiple models. These models will show how price is affected by different home features and how much the price is affected by these features. In order for us to make a good prediction model, we had to go through the data and clean it in multiple ways. Then we had to figure out which features had the largest effect on price. After discovering this, we found more data and applied it to our model with made it even better. After finding more data, cleaning the data, making multiple models and graphs, we have a better idea on how much different features can affect the price of a home. These results will be shown in multiple graphs.
 
 <h3>Business Problem<h3>  
 
@@ -32,28 +32,39 @@ We created a model that can predict the price of a home based off the features g
 Here are some visualizations that were created during the process of creating our models. Each visual will be explained in a line before the visual. 
 
 This is a heatmap of all the features and our target in a heatmap. The bigger the square the higher correlation 2 variables have with each other.
-
-![Screen%20Shot%202021-07-01%20at%202.48.39%20PM.png](attachment:Screen%20Shot%202021-07-01%20at%202.48.39%20PM.png)
-
-Our next histogram shows our target variable (price) before we dealt with the outliers. As you can see this was very top heavy and would have skewwed our model if we did not normalize the distrbution. 
-
-![Screen%20Shot%202021-07-01%20at%2011.25.52%20AM.png](attachment:Screen%20Shot%202021-07-01%20at%2011.25.52%20AM.png)
+ 
+ <img width="527" alt="Screen Shot 2021-07-01 at 2 48 39 PM" src="https://user-images.githubusercontent.com/84737779/124195839-d0504780-da90-11eb-80d9-4f0eb93508bd.png">
+ 
+Our next histogram shows our target variable (price) before we dealt with the outliers. As you can see this was very top heavy and would have skewwed our model if we did not normalize the distrbution.
+ 
+<img width="484" alt="Screen Shot 2021-07-01 at 11 25 52 AM" src="https://user-images.githubusercontent.com/84737779/124195895-e78f3500-da90-11eb-9e45-23f4a16490ae.png">
 
 We generalized our target variable so it would have a normal distribution. 
 
-![Screen%20Shot%202021-07-01%20at%202.59.49%20PM.png](attachment:Screen%20Shot%202021-07-01%20at%202.59.49%20PM.png)
+<img width="432" alt="Screen Shot 2021-07-01 at 2 59 49 PM" src="https://user-images.githubusercontent.com/84737779/124195849-d34b3800-da90-11eb-8f06-ea80542a2ced.png">
 
 This graph shows how census tract median household income aligns with home price quantiles. As you can see the higher the income in the area, the more expensive the house will be. 
+<img width="541" alt="Screen Shot 2021-07-01 at 3 05 43 PM" src="https://user-images.githubusercontent.com/84737779/124196292-b82cf800-da91-11eb-9afa-4dae18607700.png">
 
-![Screen%20Shot%202021-07-01%20at%203.05.43%20PM.png](attachment:Screen%20Shot%202021-07-01%20at%203.05.43%20PM.png)
 
-This is a scatter plot that shows price and Sqft living. As you can see the bigger the house the higher the price. 
+This is a scatter plot that shows price and Sqft living. As you can see the bigger the house the higher the price.
 
-![Screen%20Shot%202021-07-01%20at%203.05.53%20PM.png](attachment:Screen%20Shot%202021-07-01%20at%203.05.53%20PM.png)
 
-Here we have a map of King County. The darker blue dots show the cheaper houses and the dark red dots show the most expensive houses. The varying shades of green show the median household income in that designated area. 
+<img width="460" alt="Screen Shot 2021-07-01 at 11 23 54 AM" src="https://user-images.githubusercontent.com/84737779/124196285-b400da80-da91-11eb-9a60-6ecb25f57a6c.png">
 
-![Screen%20Shot%202021-07-01%20at%203.48.05%20PM.png](attachment:Screen%20Shot%202021-07-01%20at%203.48.05%20PM.png)
+
+Here we have a map of King County. The darker blue dots show the cheaper houses and the dark red dots show the most expensive houses. The varying shades of green show the median household income in that designated area.
+ <img width="1034" alt="Screen Shot 2021-07-01 at 3 48 05 PM" src="https://user-images.githubusercontent.com/84737779/124196393-edd1e100-da91-11eb-9588-120b7a326d30.png">
+ 
+ Here we can see our model does not perform well at the extremes but luckily for us the majority of our data is not at the extremes.
+ 
+ <img width="464" alt="Screen Shot 2021-07-01 at 5 33 58 PM" src="https://user-images.githubusercontent.com/84737779/124197141-8321a500-da93-11eb-9b48-cee3652d0dac.png">
+ 
+<img width="556" alt="Screen Shot 2021-07-01 at 5 34 08 PM" src="https://user-images.githubusercontent.com/84737779/124197146-874dc280-da93-11eb-86c0-765a14329cfb.png">
+ 
+
+
+
 
 <h3> Conclusions <h3>
 
@@ -63,7 +74,8 @@ If we were able to take this project furthur, we would look into making somethin
 
 ## For More Information 
 
-Please review our full analysis in our Jupyter Notebook or our Presentation. For any additional questions, pkease contact Mallory Wilson at mallorye1103@gmail.com, Charlie Fountain at charliefountain122@gmail.com, and John Carter Simmons at johncsimmons99@gmail.com
+Please review our full analysis in our [Jupyter Notebook](https://github.com/john-c-simmons/bsc-phase-two-project/blob/721a3264c4d27e90362eff947866e57484a6685e/notebooks/report.ipynb) or our [presentation](https://github.com/john-c-simmons/bsc-phase-two-project/blob/developing/King_County.pdf
+). For any additional questions, pkease contact Mallory Wilson at mallorye1103@gmail.com, Charlie Fountain at charliefountain122@gmail.com, and John Carter Simmons at johncsimmons99@gmail.com
 
 ## Repository Structure
 
